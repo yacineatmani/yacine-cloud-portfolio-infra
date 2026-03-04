@@ -34,8 +34,24 @@ terraform apply -auto-approve
 aws s3 sync site/ s3://yacine-portfolio-1sziirdx --delete
 ```
 
-## Screenshot terraform apply
-À ajouter (capture de la sortie `terraform apply`).
+## Screenshots (preuves)
+
+### Capture 1 - Terraform apply
+![Capture 1 - Terraform apply](./screenshots/01-terraform-apply.png)
+
+### Capture 2 - Terraform output
+![Capture 2 - Terraform output](./screenshots/02-terraform-output.png)
+
+### Capture 3 - AWS S3 Bucket policy
+![Capture 3 - AWS S3 Bucket policy](./screenshots/03-aws-s3-bucket-policy.png)
+
+### Capture 4 - Site live sur S3
+![Capture 4 - Site live sur S3](./screenshots/04-site-live-s3.png)
+
+### Capture 5 - Terraform validate et plan
+![Capture 5 - Terraform validate et plan](./screenshots/05-terraform-validate-plan.png)
+
+> Conseil : garde exactement ces noms de fichiers pour que les images s'affichent automatiquement dans GitHub.
 
 ## Prochaines étapes
 - Ajouter un backend distant S3 + verrouillage DynamoDB
